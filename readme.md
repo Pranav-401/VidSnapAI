@@ -111,5 +111,4 @@ Edit
 
 ---
 
-If you want, I can also help you convert this into a **requirements.txt** or even prepare a **deployment guide** (like for Heroku or Doc
 ```
