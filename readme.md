@@ -45,7 +45,7 @@ Edit
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/vidsnapai.git
+git clone https://github.com/yourusername/VidSnapAI.git
 cd vidsnapai
 Install dependencies
 
