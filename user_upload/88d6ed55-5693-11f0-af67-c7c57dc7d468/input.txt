@@ -1,0 +1,8 @@
+file 'kan.jpg'
+duration 1
+file 'chola.jpg'
+duration 1
+file 'fateh.jpg'
+duration 1
+file 'ajant.jpeg'
+duration 1

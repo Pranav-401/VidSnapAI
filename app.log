@@ -1,0 +1,587 @@
+2025-07-02 12:51:52,537 - INFO - FFmpeg version: ffmpeg version 7.1.1-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+2025-07-02 12:51:52,663 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-02 12:51:52,664 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 12:52:06,876 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:06] "GET / HTTP/1.1" 200 -
+2025-07-02 12:52:07,228 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 12:52:07,235 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:07] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:52:07,260 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:07] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:52:07,263 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:07] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:52:07,266 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:07] "[36mGET /static/5.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:52:07,280 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:07] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:52:07,602 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-02 12:52:12,693 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:12] "GET /create HTTP/1.1" 200 -
+2025-07-02 12:52:12,734 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 12:52:12,737 - INFO - 127.0.0.1 - - [02/Jul/2025 12:52:12] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -
+2025-07-02 12:53:19,283 - INFO - Saved and validated file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\rani.jpg
+2025-07-02 12:53:19,320 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 122 - value: b'Apple\x00'
+2025-07-02 12:53:19,320 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 128 - value: b'iPhone 6s\x00'
+2025-07-02 12:53:19,321 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-07-02 12:53:19,321 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 138 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-07-02 12:53:19,322 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 146 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-07-02 12:53:19,322 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-07-02 12:53:19,323 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 154 - value: b'Snapseed 2.16.148454142\x00'
+2025-07-02 12:53:19,323 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 178 - value: b'2017:02:21 10:38:12\x00'
+2025-07-02 12:53:19,323 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xc6'
+2025-07-02 12:53:19,324 - INFO - Saved and validated file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\sun1.jpg
+2025-07-02 12:53:19,338 - INFO - Saved and validated file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\taj2.jpg
+2025-07-02 12:53:19,356 - INFO - Saved and validated file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\taj4.jpg
+2025-07-02 12:53:19,358 - INFO - Saved description to user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\dec.txt
+2025-07-02 12:53:19,359 - INFO - Created input.txt with 4 images
+2025-07-02 12:53:19,360 - INFO - Generating audio for text: In a motivational context, "temple" can refer to a... in folder 45c63b0a-5715-11f0-9537-c7c57dc7d468
+2025-07-02 12:53:19,360 - DEBUG - text: In a motivational context, "temple" can refer to a place of worship or, more broadly, to the human body itself as a sacred space. Finding motivation within a physical temple often involves connecting with one's spirituality, finding strength in faith, and seeking guidance or purpose. Alternatively, viewing the body as a temple encourages self-care, respect for one's physical and mental well-being, and living a life that honors that sacred space. 
+2025-07-02 12:53:19,361 - DEBUG - tld: us
+2025-07-02 12:53:19,361 - DEBUG - lang: en
+2025-07-02 12:53:19,361 - DEBUG - slow: False
+2025-07-02 12:53:19,361 - DEBUG - lang_check: True
+2025-07-02 12:53:19,362 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x000002503D11F9C0>, <function end_of_line at 0x000002503E406A20>, <function abbreviations at 0x000002503E4074C0>, <function word_sub at 0x000002503E407560>]
+2025-07-02 12:53:19,547 - DEBUG - timeout: None
+2025-07-02 12:53:19,549 - DEBUG - langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2025-07-02 12:53:19,552 - DEBUG - pre-processing: <function tone_marks at 0x000002503D11F9C0>
+2025-07-02 12:53:19,555 - DEBUG - pre-processing: <function end_of_line at 0x000002503E406A20>
+2025-07-02 12:53:19,557 - DEBUG - pre-processing: <function abbreviations at 0x000002503E4074C0>
+2025-07-02 12:53:19,559 - DEBUG - pre-processing: <function word_sub at 0x000002503E407560>
+2025-07-02 12:53:19,572 - DEBUG - text_parts: ['In a motivational context', '"temple" can refer to a place of worship or', 'more broadly', 'to the human body itself as a sacred space', "Finding motivation within a physical temple often involves connecting with one's spirituality", 'finding strength in faith', 'and seeking guidance or purpose', 'Alternatively', 'viewing the body as a temple encourages self-care', "respect for one's physical and mental well-being", 'and living a life that honors that sacred space.']
+2025-07-02 12:53:19,573 - DEBUG - text_parts: 11
+2025-07-02 12:53:19,574 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22In%20a%20motivational%20context%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,576 - DEBUG - data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22%5C%5C%5C%22temple%5C%5C%5C%22%20can%20refer%20to%20a%20place%20of%20worship%20or%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,577 - DEBUG - data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22more%20broadly%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,578 - DEBUG - data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22to%20the%20human%20body%20itself%20as%20a%20sacred%20space%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,579 - DEBUG - data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Finding%20motivation%20within%20a%20physical%20temple%20often%20involves%20connecting%20with%20one%27s%20spirituality%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,580 - DEBUG - data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22finding%20strength%20in%20faith%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,582 - DEBUG - data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22and%20seeking%20guidance%20or%20purpose%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,584 - DEBUG - data-7: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Alternatively%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,586 - DEBUG - data-8: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22viewing%20the%20body%20as%20a%20temple%20encourages%20self-care%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,588 - DEBUG - data-9: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22respect%20for%20one%27s%20physical%20and%20mental%20well-being%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,592 - DEBUG - data-10: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22and%20living%20a%20life%20that%20honors%20that%20sacred%20space.%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 12:53:19,597 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:20,688 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:20,689 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '161'}
+2025-07-02 12:53:20,689 - DEBUG - url-0: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:20,690 - DEBUG - status-0: 200
+2025-07-02 12:53:20,691 - DEBUG - part-0 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:20,692 - DEBUG - part-0 created
+2025-07-02 12:53:20,692 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:21,082 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:21,171 - DEBUG - headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '211'}
+2025-07-02 12:53:21,172 - DEBUG - url-1: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:21,172 - DEBUG - status-1: 200
+2025-07-02 12:53:21,174 - DEBUG - part-1 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:21,174 - DEBUG - part-1 created
+2025-07-02 12:53:21,175 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:22,316 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:22,319 - DEBUG - headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '144'}
+2025-07-02 12:53:22,320 - DEBUG - url-2: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:22,320 - DEBUG - status-2: 200
+2025-07-02 12:53:22,321 - DEBUG - part-2 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:22,321 - DEBUG - part-2 created
+2025-07-02 12:53:22,322 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:22,998 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:23,130 - DEBUG - headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '188'}
+2025-07-02 12:53:23,131 - DEBUG - url-3: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:23,131 - DEBUG - status-3: 200
+2025-07-02 12:53:23,133 - DEBUG - part-3 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:23,133 - DEBUG - part-3 created
+2025-07-02 12:53:23,134 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:23,648 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:24,021 - DEBUG - headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '247'}
+2025-07-02 12:53:24,022 - DEBUG - url-4: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:24,022 - DEBUG - status-4: 200
+2025-07-02 12:53:24,025 - DEBUG - part-4 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:24,027 - DEBUG - part-4 created
+2025-07-02 12:53:24,027 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:24,438 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:24,493 - DEBUG - headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '161'}
+2025-07-02 12:53:24,494 - DEBUG - url-5: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:24,494 - DEBUG - status-5: 200
+2025-07-02 12:53:24,495 - DEBUG - part-5 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:24,495 - DEBUG - part-5 created
+2025-07-02 12:53:24,496 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:24,919 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:25,013 - DEBUG - headers-6: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '169'}
+2025-07-02 12:53:25,014 - DEBUG - url-6: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:25,014 - DEBUG - status-6: 200
+2025-07-02 12:53:25,016 - DEBUG - part-6 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:25,022 - DEBUG - part-6 created
+2025-07-02 12:53:25,023 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:25,416 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:25,434 - DEBUG - headers-7: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '143'}
+2025-07-02 12:53:25,435 - DEBUG - url-7: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:25,435 - DEBUG - status-7: 200
+2025-07-02 12:53:25,435 - DEBUG - part-7 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:25,436 - DEBUG - part-7 created
+2025-07-02 12:53:25,436 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:26,325 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:26,362 - DEBUG - headers-8: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '193'}
+2025-07-02 12:53:26,363 - DEBUG - url-8: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:26,363 - DEBUG - status-8: 200
+2025-07-02 12:53:26,365 - DEBUG - part-8 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:26,365 - DEBUG - part-8 created
+2025-07-02 12:53:26,366 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:26,851 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:26,948 - DEBUG - headers-9: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '192'}
+2025-07-02 12:53:26,950 - DEBUG - url-9: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:26,950 - DEBUG - status-9: 200
+2025-07-02 12:53:26,951 - DEBUG - part-9 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:26,952 - DEBUG - part-9 created
+2025-07-02 12:53:26,953 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 12:53:27,498 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 12:53:27,620 - DEBUG - headers-10: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '194'}
+2025-07-02 12:53:27,620 - DEBUG - url-10: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 12:53:27,621 - DEBUG - status-10: 200
+2025-07-02 12:53:27,622 - DEBUG - part-10 written to <_io.BufferedWriter name='user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3'>
+2025-07-02 12:53:27,623 - DEBUG - part-10 created
+2025-07-02 12:53:27,624 - DEBUG - Saved to user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\audio.mp3
+2025-07-02 12:53:28,653 - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2025-07-02 12:53:28,741 - INFO - Audio file user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\audio.mp3 generated and validated successfully
+2025-07-02 12:53:28,753 - INFO - Generated thumbnail at static\reels\thumbnails\45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg
+2025-07-02 12:53:28,794 - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'user_upload\\45c63b0a-5715-11f0-9537-c7c57dc7d468\\audio.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2025-07-02 12:53:28,874 - INFO - Validated audio file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\audio.mp3
+2025-07-02 12:53:28,885 - INFO - Input file content: file 'rani.jpg'
+duration 2
+file 'sun1.jpg'
+duration 2
+file 'taj2.jpg'
+duration 2
+file 'taj4.jpg'
+duration 2
+
+2025-07-02 12:53:28,886 - INFO - Validated image file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\rani.jpg
+2025-07-02 12:53:28,888 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 122 - value: b'Apple\x00'
+2025-07-02 12:53:28,888 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 128 - value: b'iPhone 6s\x00'
+2025-07-02 12:53:28,888 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-07-02 12:53:28,888 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 138 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-07-02 12:53:28,888 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 146 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-07-02 12:53:28,889 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-07-02 12:53:28,889 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 154 - value: b'Snapseed 2.16.148454142\x00'
+2025-07-02 12:53:28,889 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 178 - value: b'2017:02:21 10:38:12\x00'
+2025-07-02 12:53:28,889 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xc6'
+2025-07-02 12:53:28,890 - INFO - Validated image file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\sun1.jpg
+2025-07-02 12:53:28,891 - INFO - Validated image file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\taj2.jpg
+2025-07-02 12:53:28,892 - INFO - Validated image file: user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\taj4.jpg
+2025-07-02 12:53:28,892 - INFO - Running FFmpeg command: ffmpeg -f concat -safe 0 -i "user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\input.txt" -i "user_upload\45c63b0a-5715-11f0-9537-c7c57dc7d468\audio.mp3" -vf "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black,fps=30" -c:v libx264 -c:a aac -shortest -pix_fmt yuv420p "static\reels\45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4"
+2025-07-02 12:53:30,643 - INFO - Reel generated successfully: static\reels\45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4
+2025-07-02 12:53:30,644 - DEBUG - FFmpeg output: 
+2025-07-02 12:53:30,645 - INFO - Running FFmpeg thumbnail command: ffmpeg -i "static\reels\45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4" -vframes 1 -vf "scale=320:180:force_original_aspect_ratio=decrease" "static\reels\thumbnails\45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg"
+2025-07-02 12:56:44,077 - INFO - Added reel 3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg
+2025-07-02 12:56:44,087 - INFO - Added reel 45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg
+2025-07-02 12:56:44,098 - INFO - Added reel 5475f387-567a-11f0-a258-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg
+2025-07-02 12:56:44,108 - INFO - Added reel 81bcc855-5692-11f0-b740-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg
+2025-07-02 12:56:44,126 - INFO - Added reel c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg
+2025-07-02 12:56:44,127 - INFO - Files in reels_dir: ['3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4', '45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4', '5475f387-567a-11f0-a258-c7c57dc7d468.mp4', '81bcc855-5692-11f0-b740-c7c57dc7d468.mp4', 'c8c46559-5690-11f0-a186-c7c57dc7d468.mp4', 'thumbnails']
+2025-07-02 12:56:44,127 - INFO - Found 5 reels in static\reels
+2025-07-02 12:56:44,154 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:44] "GET /gallery HTTP/1.1" 200 -
+2025-07-02 12:56:44,199 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:44] "[36mGET /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:56:44,199 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:44] "[36mGET /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:56:44,200 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 12:56:44,206 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:44] "GET /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg HTTP/1.1" 200 -
+2025-07-02 12:56:44,214 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:44] "[36mGET /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:56:44,216 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:44] "[36mGET /static/css/gallery.css HTTP/1.1[0m" 304 -
+2025-07-02 12:56:44,216 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:44] "[36mGET /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 12:56:49,054 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:49] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 12:56:49,101 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:49] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 12:56:49,104 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:49] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 12:56:49,184 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:49] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 12:56:59,403 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:59] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 12:56:59,432 - INFO - 127.0.0.1 - - [02/Jul/2025 12:56:59] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 12:57:24,635 - ERROR - FFmpeg error (thumbnail generation): ffmpeg version 7.1.1-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 14.2.0 (Rev1, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000026e5dda8500] Could not find codec parameters for stream 0 (Video: h264 (avc1 / 0x31637661), none, 1080x1920, 1101 kb/s): unspecified pixel format
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'static\reels\45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:08.00, start: 0.000000, bitrate: 357 kb/s
+  Stream #0:0[0x1](und): Video: h264 (avc1 / 0x31637661), none, 1080x1920, 1101 kb/s, SAR 2289:2288 DAR 20601:36608, 30 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 libx264
+      Side data:
+        ICC Profile
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 24000 Hz, mono, fltp, 74 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+File 'static\reels\thumbnails\45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg' already exists. Overwrite? [y/N] ^C
+2025-07-02 13:01:08,860 - INFO - FFmpeg version: ffmpeg version 7.1.1-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+2025-07-02 13:01:09,086 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-02 13:01:09,087 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 13:01:11,934 - INFO - 127.0.0.1 - - [02/Jul/2025 13:01:11] "GET / HTTP/1.1" 200 -
+2025-07-02 13:01:12,058 - INFO - 127.0.0.1 - - [02/Jul/2025 13:01:12] "[33mGET /static/1.jpg HTTP/1.1[0m" 404 -
+2025-07-02 13:01:12,113 - INFO - 127.0.0.1 - - [02/Jul/2025 13:01:12] "[33mGET /static/3.jpg HTTP/1.1[0m" 404 -
+2025-07-02 13:01:12,175 - INFO - 127.0.0.1 - - [02/Jul/2025 13:01:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 13:01:12,187 - INFO - 127.0.0.1 - - [02/Jul/2025 13:01:12] "GET /static/2.jpg HTTP/1.1" 200 -
+2025-07-02 13:01:12,234 - INFO - 127.0.0.1 - - [02/Jul/2025 13:01:12] "GET /static/5.jpg HTTP/1.1" 200 -
+2025-07-02 13:01:12,251 - INFO - 127.0.0.1 - - [02/Jul/2025 13:01:12] "GET /static/4.jpg HTTP/1.1" 200 -
+2025-07-02 13:01:12,327 - INFO - 127.0.0.1 - - [02/Jul/2025 13:01:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-02 13:02:01,136 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:01] "GET / HTTP/1.1" 200 -
+2025-07-02 13:02:01,157 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 13:02:01,164 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:01] "GET /static/1.jpg HTTP/1.1" 200 -
+2025-07-02 13:02:01,164 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:01] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:02:01,168 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:01] "GET /static/3.jpg HTTP/1.1" 200 -
+2025-07-02 13:02:01,182 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:01] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:02:01,196 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:01] "[36mGET /static/5.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:02:19,602 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:19] "GET / HTTP/1.1" 200 -
+2025-07-02 13:02:19,622 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:19] "[33mGET /static/1.jpg HTTP/1.1[0m" 404 -
+2025-07-02 13:02:19,624 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 13:02:19,626 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:19] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:02:19,633 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:19] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:02:19,638 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:19] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:02:19,639 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:19] "[36mGET /static/5.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:02:57,977 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:57] "GET / HTTP/1.1" 200 -
+2025-07-02 13:02:58,009 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 13:02:58,011 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:58] "GET /static/1.jpg HTTP/1.1" 200 -
+2025-07-02 13:02:58,021 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:58] "GET /static/2.jpg HTTP/1.1" 200 -
+2025-07-02 13:02:58,025 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:58] "GET /static/4.jpg HTTP/1.1" 200 -
+2025-07-02 13:02:58,030 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:58] "GET /static/3.jpg HTTP/1.1" 200 -
+2025-07-02 13:02:58,032 - INFO - 127.0.0.1 - - [02/Jul/2025 13:02:58] "GET /static/5.jpg HTTP/1.1" 200 -
+2025-07-02 13:03:14,104 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:14] "GET / HTTP/1.1" 200 -
+2025-07-02 13:03:14,121 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 13:03:14,124 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:14] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:03:14,124 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:14] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:03:14,131 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:14] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:03:14,134 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:14] "[33mGET /static/5.jpg HTTP/1.1[0m" 404 -
+2025-07-02 13:03:14,134 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:14] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:03:49,935 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:49] "GET / HTTP/1.1" 200 -
+2025-07-02 13:03:49,984 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:49] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:03:49,990 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:49] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:03:49,995 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 13:03:50,003 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:50] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:03:50,005 - INFO - 127.0.0.1 - - [02/Jul/2025 13:03:50] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:14,458 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:14] "GET / HTTP/1.1" 200 -
+2025-07-02 13:12:14,487 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:14] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:14,491 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:14] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:14,498 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:14] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:14,535 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:14] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:14,537 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:14] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:24,418 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:24] "GET / HTTP/1.1" 200 -
+2025-07-02 13:12:24,457 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:24] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:24,466 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:24] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:24,468 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:24] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:24,476 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:24] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:24,478 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:24] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:26,036 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:26] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:12:26,084 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:26,090 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:26] "[33mGET /static/css/create.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:31,096 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:31] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:12:31,129 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:31] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:31,130 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:31] "[33mGET /static/css/create.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:32,372 - INFO - Added reel 3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg
+2025-07-02 13:12:32,373 - INFO - Added reel 45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg
+2025-07-02 13:12:32,374 - INFO - Added reel 5475f387-567a-11f0-a258-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg
+2025-07-02 13:12:32,375 - INFO - Added reel 81bcc855-5692-11f0-b740-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg
+2025-07-02 13:12:32,376 - INFO - Added reel c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg
+2025-07-02 13:12:32,377 - INFO - Files in reels_dir: ['3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4', '45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4', '5475f387-567a-11f0-a258-c7c57dc7d468.mp4', '81bcc855-5692-11f0-b740-c7c57dc7d468.mp4', 'c8c46559-5690-11f0-a186-c7c57dc7d468.mp4', 'thumbnails']
+2025-07-02 13:12:32,377 - INFO - Found 5 reels in static\reels
+2025-07-02 13:12:32,416 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:32] "GET /gallery HTTP/1.1" 200 -
+2025-07-02 13:12:32,461 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:32] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:32,469 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:32] "[33mGET /static/css/gallery.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:32,473 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:32] "[36mGET /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:32,474 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:32] "[36mGET /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:32,475 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:32] "[36mGET /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:32,477 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:32] "[36mGET /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:32,495 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:32] "[36mGET /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:42,624 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:42] "GET / HTTP/1.1" 200 -
+2025-07-02 13:12:42,680 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:42] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:12:42,687 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:42] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:42,692 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:42] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:42,705 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:42] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:12:42,706 - INFO - 127.0.0.1 - - [02/Jul/2025 13:12:42] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:28,466 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:28] "GET / HTTP/1.1" 200 -
+2025-07-02 13:13:28,494 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-02 13:13:28,500 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:28] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:28,501 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:28] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:28,512 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:28] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:28,513 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:28] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:35,065 - INFO - Added reel 3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg
+2025-07-02 13:13:35,066 - INFO - Added reel 45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg
+2025-07-02 13:13:35,066 - INFO - Added reel 5475f387-567a-11f0-a258-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg
+2025-07-02 13:13:35,067 - INFO - Added reel 81bcc855-5692-11f0-b740-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg
+2025-07-02 13:13:35,068 - INFO - Added reel c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg
+2025-07-02 13:13:35,068 - INFO - Files in reels_dir: ['3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4', '45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4', '5475f387-567a-11f0-a258-c7c57dc7d468.mp4', '81bcc855-5692-11f0-b740-c7c57dc7d468.mp4', 'c8c46559-5690-11f0-a186-c7c57dc7d468.mp4', 'thumbnails']
+2025-07-02 13:13:35,068 - INFO - Found 5 reels in static\reels
+2025-07-02 13:13:35,069 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:35] "GET /gallery HTTP/1.1" 200 -
+2025-07-02 13:13:35,104 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 13:13:35,114 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:35] "[33mGET /static/css/gallery.css HTTP/1.1[0m" 404 -
+2025-07-02 13:13:35,116 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:35] "[36mGET /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:35,116 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:35] "[36mGET /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:35,117 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:35] "[36mGET /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:35,117 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:35] "[36mGET /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:35,130 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:35] "[36mGET /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:13:37,503 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:37] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:13:37,551 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-02 13:13:37,552 - INFO - 127.0.0.1 - - [02/Jul/2025 13:13:37] "GET /static/css/create.css HTTP/1.1" 200 -
+2025-07-02 13:14:04,166 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:04] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:14:04,194 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:04] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:14:04,197 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:04] "GET /static/css/create.css HTTP/1.1" 200 -
+2025-07-02 13:14:15,130 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:15] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:14:15,153 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:15] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:14:15,157 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:15] "GET /static/css/create.css HTTP/1.1" 200 -
+2025-07-02 13:14:27,515 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:27] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:14:27,536 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:14:27,537 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:27] "GET /static/css/create.css HTTP/1.1" 200 -
+2025-07-02 13:14:34,638 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:34] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-02 13:14:34,641 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:34] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:14:34,643 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:34] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -
+2025-07-02 13:14:44,359 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:44] "GET / HTTP/1.1" 200 -
+2025-07-02 13:14:44,408 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-02 13:14:44,427 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:14:44,428 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:44] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:14:44,429 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:44] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:14:44,536 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:44] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:14:44,543 - INFO - 127.0.0.1 - - [02/Jul/2025 13:14:44] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:06,288 - INFO - FFmpeg version: ffmpeg version 7.1.1-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+2025-07-02 13:16:06,367 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-02 13:16:06,368 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-02 13:16:10,281 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:10] "GET / HTTP/1.1" 200 -
+2025-07-02 13:16:10,457 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:10] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:16:10,590 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:10] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:10,600 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:10] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:10,625 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:10] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:10,640 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:10] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:10,713 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-02 13:16:18,584 - INFO - Added reel 3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg
+2025-07-02 13:16:18,586 - INFO - Added reel 45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg
+2025-07-02 13:16:18,587 - INFO - Added reel 5475f387-567a-11f0-a258-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg
+2025-07-02 13:16:18,588 - INFO - Added reel 81bcc855-5692-11f0-b740-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg
+2025-07-02 13:16:18,589 - INFO - Added reel c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg
+2025-07-02 13:16:18,590 - INFO - Files in reels_dir: ['3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4', '45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4', '5475f387-567a-11f0-a258-c7c57dc7d468.mp4', '81bcc855-5692-11f0-b740-c7c57dc7d468.mp4', 'c8c46559-5690-11f0-a186-c7c57dc7d468.mp4', 'thumbnails']
+2025-07-02 13:16:18,590 - INFO - Found 5 reels in static\reels
+2025-07-02 13:16:18,599 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:18] "GET /gallery HTTP/1.1" 200 -
+2025-07-02 13:16:18,665 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:18] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:16:18,670 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:18] "[33mGET /static/css/gallery.css HTTP/1.1[0m" 404 -
+2025-07-02 13:16:18,672 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:18] "[36mGET /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:18,674 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:18] "[36mGET /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:18,675 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:18] "[36mGET /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:18,675 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:18] "[36mGET /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:18,692 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:18] "[36mGET /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:16:21,554 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:21] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:16:21,607 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:21] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:16:21,614 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:21] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:16:21,773 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:21] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:16:27,541 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:27] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:16:27,577 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:16:27,581 - INFO - 127.0.0.1 - - [02/Jul/2025 13:16:27] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -
+2025-07-02 13:17:08,850 - INFO - Saved and validated file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\rani.jpg
+2025-07-02 13:17:08,876 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 122 - value: b'Apple\x00'
+2025-07-02 13:17:08,877 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 128 - value: b'iPhone 6s\x00'
+2025-07-02 13:17:08,877 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-07-02 13:17:08,878 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 138 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-07-02 13:17:08,878 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 146 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-07-02 13:17:08,879 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-07-02 13:17:08,879 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 154 - value: b'Snapseed 2.16.148454142\x00'
+2025-07-02 13:17:08,880 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 178 - value: b'2017:02:21 10:38:12\x00'
+2025-07-02 13:17:08,880 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xc6'
+2025-07-02 13:17:08,880 - INFO - Saved and validated file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\sun1.jpg
+2025-07-02 13:17:08,892 - INFO - Saved and validated file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\taj2.jpg
+2025-07-02 13:17:08,912 - INFO - Saved and validated file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\taj4.jpg
+2025-07-02 13:17:08,913 - INFO - Saved description to user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\dec.txt
+2025-07-02 13:17:08,915 - INFO - Created input.txt with 4 images
+2025-07-02 13:17:08,916 - INFO - Generating audio for text: A temple is a building or place dedicated to the w... in folder a90ac3bd-5718-11f0-8998-c7c57dc7d468
+2025-07-02 13:17:08,916 - DEBUG - text: A temple is a building or place dedicated to the worship of a god or deities. It serves as a sacred space where religious rituals, prayers, and ceremonies are performed. Temples are found in various religions, including Hinduism, Buddhism, and ancient faiths, and sometimes even in Judaism (synagogues).
+2025-07-02 13:17:08,916 - DEBUG - tld: us
+2025-07-02 13:17:08,916 - DEBUG - lang: en
+2025-07-02 13:17:08,916 - DEBUG - slow: False
+2025-07-02 13:17:08,917 - DEBUG - lang_check: True
+2025-07-02 13:17:08,917 - DEBUG - pre_processor_funcs: [<function tone_marks at 0x00000241EA02F9C0>, <function end_of_line at 0x00000241EA346A20>, <function abbreviations at 0x00000241EA3474C0>, <function word_sub at 0x00000241EA347560>]
+2025-07-02 13:17:09,136 - DEBUG - timeout: None
+2025-07-02 13:17:09,136 - DEBUG - langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2025-07-02 13:17:09,137 - DEBUG - pre-processing: <function tone_marks at 0x00000241EA02F9C0>
+2025-07-02 13:17:09,138 - DEBUG - pre-processing: <function end_of_line at 0x00000241EA346A20>
+2025-07-02 13:17:09,138 - DEBUG - pre-processing: <function abbreviations at 0x00000241EA3474C0>
+2025-07-02 13:17:09,139 - DEBUG - pre-processing: <function word_sub at 0x00000241EA347560>
+2025-07-02 13:17:09,147 - DEBUG - text_parts: ['A temple is a building or place dedicated to the worship of a god or deities', 'It serves as a sacred space where religious rituals', 'prayers', 'and ceremonies are performed', 'Temples are found in various religions', 'including Hinduism', 'Buddhism', 'and ancient faiths', 'and sometimes even in Judaism', 'synagogues']
+2025-07-02 13:17:09,148 - DEBUG - text_parts: 10
+2025-07-02 13:17:09,149 - DEBUG - data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22A%20temple%20is%20a%20building%20or%20place%20dedicated%20to%20the%20worship%20of%20a%20god%20or%20deities%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,150 - DEBUG - data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22It%20serves%20as%20a%20sacred%20space%20where%20religious%20rituals%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,150 - DEBUG - data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22prayers%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,150 - DEBUG - data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22and%20ceremonies%20are%20performed%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,151 - DEBUG - data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Temples%20are%20found%20in%20various%20religions%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,152 - DEBUG - data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22including%20Hinduism%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,152 - DEBUG - data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Buddhism%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,153 - DEBUG - data-7: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22and%20ancient%20faiths%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,154 - DEBUG - data-8: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22and%20sometimes%20even%20in%20Judaism%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,154 - DEBUG - data-9: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22synagogues%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2025-07-02 13:17:09,156 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:09,869 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:09,945 - DEBUG - headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '236'}
+2025-07-02 13:17:09,945 - DEBUG - url-0: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:09,946 - DEBUG - status-0: 200
+2025-07-02 13:17:09,949 - DEBUG - part-0 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:09,949 - DEBUG - part-0 created
+2025-07-02 13:17:09,950 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:10,251 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:10,323 - DEBUG - headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '197'}
+2025-07-02 13:17:10,323 - DEBUG - url-1: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:10,324 - DEBUG - status-1: 200
+2025-07-02 13:17:10,325 - DEBUG - part-1 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:10,325 - DEBUG - part-1 created
+2025-07-02 13:17:10,326 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:10,599 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:10,607 - DEBUG - headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '137'}
+2025-07-02 13:17:10,607 - DEBUG - url-2: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:10,608 - DEBUG - status-2: 200
+2025-07-02 13:17:10,608 - DEBUG - part-2 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:10,609 - DEBUG - part-2 created
+2025-07-02 13:17:10,610 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:10,992 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:11,127 - DEBUG - headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '164'}
+2025-07-02 13:17:11,128 - DEBUG - url-3: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:11,128 - DEBUG - status-3: 200
+2025-07-02 13:17:11,129 - DEBUG - part-3 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:11,129 - DEBUG - part-3 created
+2025-07-02 13:17:11,131 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:11,654 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:11,661 - DEBUG - headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '178'}
+2025-07-02 13:17:11,662 - DEBUG - url-4: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:11,662 - DEBUG - status-4: 200
+2025-07-02 13:17:11,664 - DEBUG - part-4 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:11,665 - DEBUG - part-4 created
+2025-07-02 13:17:11,666 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:12,270 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:12,398 - DEBUG - headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '150'}
+2025-07-02 13:17:12,398 - DEBUG - url-5: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:12,399 - DEBUG - status-5: 200
+2025-07-02 13:17:12,399 - DEBUG - part-5 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:12,401 - DEBUG - part-5 created
+2025-07-02 13:17:12,401 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:12,751 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:12,765 - DEBUG - headers-6: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '138'}
+2025-07-02 13:17:12,766 - DEBUG - url-6: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:12,766 - DEBUG - status-6: 200
+2025-07-02 13:17:12,767 - DEBUG - part-6 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:12,767 - DEBUG - part-6 created
+2025-07-02 13:17:12,768 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:13,354 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:13,370 - DEBUG - headers-7: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+2025-07-02 13:17:13,370 - DEBUG - url-7: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:13,371 - DEBUG - status-7: 200
+2025-07-02 13:17:13,372 - DEBUG - part-7 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:13,372 - DEBUG - part-7 created
+2025-07-02 13:17:13,372 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:13,637 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:13,703 - DEBUG - headers-8: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '167'}
+2025-07-02 13:17:13,703 - DEBUG - url-8: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:13,703 - DEBUG - status-8: 200
+2025-07-02 13:17:13,704 - DEBUG - part-8 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:13,705 - DEBUG - part-8 created
+2025-07-02 13:17:13,705 - DEBUG - Starting new HTTPS connection (1): translate.google.us:443
+2025-07-02 13:17:14,044 - DEBUG - https://translate.google.us:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2025-07-02 13:17:14,049 - DEBUG - headers-9: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '140'}
+2025-07-02 13:17:14,050 - DEBUG - url-9: https://translate.google.us/_/TranslateWebserverUi/data/batchexecute
+2025-07-02 13:17:14,050 - DEBUG - status-9: 200
+2025-07-02 13:17:14,051 - DEBUG - part-9 written to <_io.BufferedWriter name='user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3'>
+2025-07-02 13:17:14,051 - DEBUG - part-9 created
+2025-07-02 13:17:14,052 - DEBUG - Saved to user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\audio.mp3
+2025-07-02 13:17:15,158 - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2025-07-02 13:17:15,306 - INFO - Audio file user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\audio.mp3 generated and validated successfully
+2025-07-02 13:17:15,318 - INFO - Generated thumbnail at static\reels\thumbnails\a90ac3bd-5718-11f0-8998-c7c57dc7d468.jpg
+2025-07-02 13:17:15,355 - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'mp3', '-i', 'user_upload\\a90ac3bd-5718-11f0-8998-c7c57dc7d468\\audio.mp3', '-acodec', 'pcm_s16le', '-vn', '-f', 'wav', '-'])
+2025-07-02 13:17:15,418 - INFO - Validated audio file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\audio.mp3
+2025-07-02 13:17:15,427 - INFO - Input file content: file 'rani.jpg'
+duration 2
+file 'sun1.jpg'
+duration 2
+file 'taj2.jpg'
+duration 2
+file 'taj4.jpg'
+duration 2
+
+2025-07-02 13:17:15,428 - INFO - Validated image file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\rani.jpg
+2025-07-02 13:17:15,429 - DEBUG - tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 122 - value: b'Apple\x00'
+2025-07-02 13:17:15,430 - DEBUG - tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 128 - value: b'iPhone 6s\x00'
+2025-07-02 13:17:15,430 - DEBUG - tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2025-07-02 13:17:15,431 - DEBUG - tag: XResolution (282) - type: rational (5) Tag Location: 58 - Data Location: 138 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-07-02 13:17:15,431 - DEBUG - tag: YResolution (283) - type: rational (5) Tag Location: 70 - Data Location: 146 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2025-07-02 13:17:15,431 - DEBUG - tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2025-07-02 13:17:15,432 - DEBUG - tag: Software (305) - type: string (2) Tag Location: 94 - Data Location: 154 - value: b'Snapseed 2.16.148454142\x00'
+2025-07-02 13:17:15,432 - DEBUG - tag: DateTime (306) - type: string (2) Tag Location: 106 - Data Location: 178 - value: b'2017:02:21 10:38:12\x00'
+2025-07-02 13:17:15,432 - DEBUG - tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xc6'
+2025-07-02 13:17:15,432 - INFO - Validated image file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\sun1.jpg
+2025-07-02 13:17:15,433 - INFO - Validated image file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\taj2.jpg
+2025-07-02 13:17:15,434 - INFO - Validated image file: user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\taj4.jpg
+2025-07-02 13:17:15,434 - INFO - Running FFmpeg command: ffmpeg -f concat -safe 0 -i "user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\input.txt" -i "user_upload\a90ac3bd-5718-11f0-8998-c7c57dc7d468\audio.mp3" -vf "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black,fps=30" -c:v libx264 -c:a aac -shortest -pix_fmt yuv420p "static\reels\a90ac3bd-5718-11f0-8998-c7c57dc7d468.mp4"
+2025-07-02 13:17:15,438 - INFO - Added reel 3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg
+2025-07-02 13:17:15,439 - INFO - Added reel 45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg
+2025-07-02 13:17:15,439 - INFO - Added reel 5475f387-567a-11f0-a258-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg
+2025-07-02 13:17:15,440 - INFO - Added reel 81bcc855-5692-11f0-b740-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg
+2025-07-02 13:17:15,441 - INFO - Added reel c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg
+2025-07-02 13:17:15,442 - INFO - Files in reels_dir: ['3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4', '45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4', '5475f387-567a-11f0-a258-c7c57dc7d468.mp4', '81bcc855-5692-11f0-b740-c7c57dc7d468.mp4', 'c8c46559-5690-11f0-a186-c7c57dc7d468.mp4', 'thumbnails']
+2025-07-02 13:17:15,442 - INFO - Found 5 reels in static\reels
+2025-07-02 13:17:15,444 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:15] "GET /gallery HTTP/1.1" 200 -
+2025-07-02 13:17:15,480 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:15] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:17:15,484 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:15] "[33mGET /static/css/gallery.css HTTP/1.1[0m" 404 -
+2025-07-02 13:17:15,490 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:15] "[36mGET /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:15,493 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:15] "[36mGET /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:15,500 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:15] "[36mGET /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:15,500 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:15] "[36mGET /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:15,502 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:15] "[36mGET /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:17,242 - INFO - Reel generated successfully: static\reels\a90ac3bd-5718-11f0-8998-c7c57dc7d468.mp4
+2025-07-02 13:17:17,243 - DEBUG - FFmpeg output: 
+2025-07-02 13:17:17,243 - INFO - Running FFmpeg thumbnail command: ffmpeg -i "static\reels\a90ac3bd-5718-11f0-8998-c7c57dc7d468.mp4" -vframes 1 -vf "scale=320:180:force_original_aspect_ratio=decrease" "static\reels\thumbnails\a90ac3bd-5718-11f0-8998-c7c57dc7d468.jpg"
+2025-07-02 13:17:21,975 - INFO - Added reel 3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg
+2025-07-02 13:17:21,976 - INFO - Added reel 45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg
+2025-07-02 13:17:21,977 - INFO - Added reel 5475f387-567a-11f0-a258-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg
+2025-07-02 13:17:21,978 - INFO - Added reel 81bcc855-5692-11f0-b740-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg
+2025-07-02 13:17:21,992 - INFO - Added reel a90ac3bd-5718-11f0-8998-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/a90ac3bd-5718-11f0-8998-c7c57dc7d468.jpg
+2025-07-02 13:17:21,993 - INFO - Added reel c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 to gallery with thumbnail: /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg
+2025-07-02 13:17:21,994 - INFO - Files in reels_dir: ['3c88dcde-5673-11f0-9b61-c7c57dc7d468.mp4', '45c63b0a-5715-11f0-9537-c7c57dc7d468.mp4', '5475f387-567a-11f0-a258-c7c57dc7d468.mp4', '81bcc855-5692-11f0-b740-c7c57dc7d468.mp4', 'a90ac3bd-5718-11f0-8998-c7c57dc7d468.mp4', 'c8c46559-5690-11f0-a186-c7c57dc7d468.mp4', 'thumbnails']
+2025-07-02 13:17:21,994 - INFO - Found 6 reels in static\reels
+2025-07-02 13:17:21,995 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:21] "GET /gallery HTTP/1.1" 200 -
+2025-07-02 13:17:22,032 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:22] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:17:22,040 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:22] "[33mGET /static/css/gallery.css HTTP/1.1[0m" 404 -
+2025-07-02 13:17:22,047 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:22] "[36mGET /static/reels/thumbnails/45c63b0a-5715-11f0-9537-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:22,050 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:22] "[36mGET /static/reels/thumbnails/3c88dcde-5673-11f0-9b61-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:22,052 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:22] "[36mGET /static/reels/thumbnails/5475f387-567a-11f0-a258-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:22,053 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:22] "[36mGET /static/reels/thumbnails/81bcc855-5692-11f0-b740-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:22,079 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:22] "[36mGET /static/reels/thumbnails/c8c46559-5690-11f0-a186-c7c57dc7d468.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:17:22,092 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:22] "GET /static/reels/thumbnails/a90ac3bd-5718-11f0-8998-c7c57dc7d468.jpg HTTP/1.1" 200 -
+2025-07-02 13:17:25,977 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:25] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:17:26,019 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:26] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:17:26,024 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:26] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:17:26,050 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:26] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:17:26,212 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-02 13:17:28,963 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:28] "[35m[1mGET /static/reels/c8c46559-5690-11f0-a186-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:17:32,153 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:32] "GET /static/reels/a90ac3bd-5718-11f0-8998-c7c57dc7d468.mp4 HTTP/1.1" 200 -
+2025-07-02 13:17:32,212 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:32] "[35m[1mGET /static/reels/a90ac3bd-5718-11f0-8998-c7c57dc7d468.mp4 HTTP/1.1[0m" 206 -
+2025-07-02 13:17:32,382 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-02 13:17:49,921 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:49] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:17:49,945 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:49] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:17:49,947 - INFO - 127.0.0.1 - - [02/Jul/2025 13:17:49] "[36mGET /static/css/create.css HTTP/1.1[0m" 304 -
+2025-07-02 13:18:17,135 - INFO - 127.0.0.1 - - [02/Jul/2025 13:18:17] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:18:17,162 - INFO - 127.0.0.1 - - [02/Jul/2025 13:18:17] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:18:17,175 - INFO - 127.0.0.1 - - [02/Jul/2025 13:18:17] "GET /static/css/create.css HTTP/1.1" 200 -
+2025-07-02 13:18:37,085 - INFO - 127.0.0.1 - - [02/Jul/2025 13:18:37] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:18:37,111 - INFO - 127.0.0.1 - - [02/Jul/2025 13:18:37] "GET /static/css/create.css HTTP/1.1" 200 -
+2025-07-02 13:18:37,115 - INFO - 127.0.0.1 - - [02/Jul/2025 13:18:37] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:19:03,411 - INFO - 127.0.0.1 - - [02/Jul/2025 13:19:03] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:19:03,433 - INFO - 127.0.0.1 - - [02/Jul/2025 13:19:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:19:03,436 - INFO - 127.0.0.1 - - [02/Jul/2025 13:19:03] "GET /static/css/create.css HTTP/1.1" 200 -
+2025-07-02 13:20:14,142 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:14] "GET /create HTTP/1.1" 200 -
+2025-07-02 13:20:14,191 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:14] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:20:14,198 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:14] "GET /static/css/create.css HTTP/1.1" 200 -
+2025-07-02 13:20:38,652 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:38] "GET / HTTP/1.1" 200 -
+2025-07-02 13:20:38,673 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:38] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-07-02 13:20:38,678 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:38] "[36mGET /static/1.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:20:38,681 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:38] "[36mGET /static/2.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:20:38,685 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:38] "[36mGET /static/3.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:20:38,686 - INFO - 127.0.0.1 - - [02/Jul/2025 13:20:38] "[36mGET /static/4.jpg HTTP/1.1[0m" 304 -
+2025-07-02 13:21:28,840 - INFO - Thumbnail generated successfully: static\reels\thumbnails\a90ac3bd-5718-11f0-8998-c7c57dc7d468.jpg
+2025-07-02 13:21:28,841 - DEBUG - FFmpeg thumbnail output: 
+2025-07-02 13:21:28,841 - INFO - Created reel a90ac3bd-5718-11f0-8998-c7c57dc7d468 successfully
+2025-07-02 13:21:28,844 - INFO - 127.0.0.1 - - [02/Jul/2025 13:21:28] "POST /create HTTP/1.1" 200 -

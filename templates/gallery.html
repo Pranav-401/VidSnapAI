@@ -1,0 +1,382 @@
+{% extends "base.html" %} {% block title %}Gallery - AI Reel Generator{%
+endblock %} {% block extra_css %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/gallery.css') }}"
+/>
+<style>
+  /* Gallery Container */
+  .gallery-container {
+    padding: 60px 0;
+    min-height: calc(100vh - 200px);
+  }
+
+  .gallery-title {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 3rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: titleAnimation 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  @keyframes titleAnimation {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Gallery Grid */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  /* Gallery Item */
+  .gallery-item {
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .gallery-item:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .gallery-item:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .gallery-item:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .gallery-item:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  .gallery-item:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  .gallery-item:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Reel Card */
+  .reel-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reel-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea, #764ba2, #ff6b6b);
+    background-size: 200% 100%;
+    animation: gradientShift 4s ease-in-out infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .reel-card:hover::before {
+    opacity: 1;
+  }
+
+  @keyframes gradientShift {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .reel-card:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.25);
+    border-color: rgba(102, 126, 234, 0.3);
+  }
+
+  /* Reel Thumbnail */
+  .reel-thumbnail {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  }
+
+  .reel-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+  }
+
+  .reel-card:hover .reel-thumbnail img {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+  }
+
+  .reel-thumbnail a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+  }
+
+  /* Play Overlay */
+  .play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  }
+
+  .play-overlay i {
+    font-size: 1.5rem;
+    color: #667eea;
+    margin-left: 3px; /* Center the play icon properly */
+    transition: all 0.3s ease;
+  }
+
+  .reel-thumbnail:hover .play-overlay {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .play-overlay:hover {
+    background: rgba(102, 126, 234, 0.95);
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+
+  .play-overlay:hover i {
+    color: white;
+    transform: scale(1.2);
+  }
+
+  /* Reel Info */
+  .reel-info {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .reel-info h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    background: linear-gradient(135deg, #333 0%, #555 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .reel-info p {
+    color: #666;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+
+  .reel-card:hover .reel-info p {
+    opacity: 1;
+    color: #667eea;
+  }
+
+  /* Empty State */
+  .gallery-grid p {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 4rem 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 2rem 0;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .gallery-container {
+      padding: 40px 0;
+    }
+
+    .gallery-title {
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 0 0.5rem;
+    }
+
+    .reel-thumbnail {
+      height: 200px;
+    }
+
+    .reel-info {
+      padding: 1.2rem;
+    }
+
+    .play-overlay {
+      width: 60px;
+      height: 60px;
+    }
+
+    .play-overlay i {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .gallery-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .gallery-title {
+      font-size: 1.8rem;
+    }
+  }
+
+  /* Loading animation */
+  .gallery-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #667eea;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Hover effects for the entire grid */
+  .gallery-grid:hover .reel-card:not(:hover) {
+    opacity: 0.7;
+    transform: scale(0.98);
+  }
+
+  /* Floating animation for cards */
+  .reel-card {
+    animation: floatCard 8s ease-in-out infinite;
+  }
+
+  .reel-card:nth-child(even) {
+    animation-delay: -4s;
+  }
+
+  @keyframes floatCard {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+
+  .reel-card:hover {
+    animation-play-state: paused;
+  }
+</style>
+{% endblock %} {% block content %}
+<div class="container gallery-container">
+  <h1 class="gallery-title">Reel Gallery</h1>
+  <div class="gallery-grid">
+    {% for reel in reels %}
+    <div class="gallery-item">
+      <div class="reel-card">
+        <div class="reel-thumbnail">
+          <a href="{{ url_for('static', filename=folder + '/' + reel.file) }}">
+            <img
+              src="{{ url_for('static', filename=reel.thumbnail) }}"
+              alt="{{ reel.title }}"
+            />
+            <div class="play-overlay">
+              <i class="fas fa-play"></i>
+            </div>
+          </a>
+        </div>
+        <div class="reel-info">
+          <h3>{{ reel.title }}</h3>
+          <p>Created by: {{ reel.creator }}</p>
+        </div>
+      </div>
+    </div>
+    {% else %}
+    <p>
+      No reels available yet.
+      <a
+        href="/create"
+        style="color: #667eea; text-decoration: none; font-weight: 600"
+        >Create your first reel!</a
+      >
+    </p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

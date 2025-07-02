@@ -1,0 +1,6 @@
+file 'hamp.jpg'
+duration 1
+file 'chola.jpg'
+duration 1
+file 'kan.jpg'
+duration 1

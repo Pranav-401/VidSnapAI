@@ -1,0 +1,8 @@
+file 'rani.jpg'
+duration 2
+file 'sun1.jpg'
+duration 2
+file 'taj2.jpg'
+duration 2
+file 'taj4.jpg'
+duration 2

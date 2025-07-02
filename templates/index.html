@@ -1,0 +1,370 @@
+{% extends "base.html" %} {% block title %}AI Reel Generator - Create Amazing
+Instagram Reels{% endblock %} {% block extra_css %}
+<style>
+  /* Hero Section */
+  .hero-section {
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: heroTextAnimation 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  @keyframes heroTextAnimation {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hero-subtitle {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2.5rem;
+    animation: heroSubtitleAnimation 1s ease-out 0.3s forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  @keyframes heroSubtitleAnimation {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ff8e8e 100%);
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    box-shadow: 0 15px 35px rgba(255, 107, 107, 0.3);
+    position: relative;
+    overflow: hidden;
+    animation: ctaButtonAnimation 1s ease-out 0.6s forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  @keyframes ctaButtonAnimation {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .cta-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    transition: left 0.6s ease;
+  }
+
+  .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 25px 50px rgba(255, 107, 107, 0.4);
+    color: white;
+  }
+
+  .cta-button:hover::before {
+    left: 100%;
+  }
+
+  /* Features Section */
+  .features-section {
+    padding: 80px 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    margin: 50px 20px;
+    border-radius: 30px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .features-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(102, 126, 234, 0.3),
+      transparent
+    );
+  }
+
+  .feature-card {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.4s ease;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .feature-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(102, 126, 234, 0.05) 0%,
+      rgba(118, 75, 162, 0.05) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(102, 126, 234, 0.15);
+    border-color: rgba(102, 126, 234, 0.3);
+  }
+
+  .feature-card:hover::before {
+    opacity: 1;
+  }
+
+  .feature-icon {
+    font-size: 3rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover .feature-icon {
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  .feature-card h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  .feature-card p {
+    color: #666;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  /* Showcase Section */
+  .showcase-section {
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .showcase-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 3rem;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .showcase-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .showcase-image:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1.1rem;
+    }
+
+    .features-section {
+      margin: 30px 10px;
+      padding: 60px 0;
+    }
+
+    .feature-card {
+      padding: 2rem 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .showcase-title {
+      font-size: 2rem;
+    }
+
+    .image-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+  }
+
+  /* Floating animation for feature cards */
+  .feature-card {
+    animation: float-feature 6s ease-in-out infinite;
+  }
+
+  .feature-card:nth-child(2) {
+    animation-delay: -2s;
+  }
+
+  .feature-card:nth-child(3) {
+    animation-delay: -4s;
+  }
+
+  @keyframes float-feature {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  /* Scroll animations */
+  .features-section,
+  .showcase-section {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUpSection 1s ease forwards;
+  }
+
+  .showcase-section {
+    animation-delay: 0.3s;
+  }
+
+  @keyframes fadeInUpSection {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+{% endblock %} {% block content %}
+<section class="hero-section">
+  <div class="container">
+    <h1 class="hero-title">Create Amazing Instagram Reels with AI</h1>
+    <p class="hero-subtitle">
+      Transform your videos into engaging reels with our AI-powered platform
+    </p>
+    <a href="/create" class="cta-button">Start Creating Now</a>
+  </div>
+</section>
+
+<section class="features-section">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="feature-card">
+          <i class="fas fa-magic feature-icon"></i>
+          <h3>AI-Powered Editing</h3>
+          <p>Let our AI analyze and enhance your videos automatically</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-card">
+          <i class="fas fa-film feature-icon"></i>
+          <h3>Smart Stitching</h3>
+          <p>Seamlessly combine multiple clips into perfect reels</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-card">
+          <i class="fas fa-music feature-icon"></i>
+          <h3>Music Integration</h3>
+          <p>Add trending music and sound effects to your reels</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="showcase-section">
+  <div class="container">
+    <h2 class="showcase-title">Featured Creations</h2>
+    <div class="image-grid">
+      <img
+        src="{{ url_for('static', filename='1.jpg') }}"
+        alt="Reel Example 1"
+        class="showcase-image"
+      />
+      <img
+        src="{{ url_for('static', filename='2.jpg') }}"
+        alt="Reel Example 2"
+        class="showcase-image"
+      />
+      <img
+        src="{{ url_for('static', filename='3.jpg') }}"
+        alt="Reel Example 3"
+        class="showcase-image"
+      />
+      <img
+        src="{{ url_for('static', filename='4.jpg') }}"
+        alt="Reel Example 4"
+        class="showcase-image"
+      />
+    </div>
+  </div>
+</section>
+{% endblock %}

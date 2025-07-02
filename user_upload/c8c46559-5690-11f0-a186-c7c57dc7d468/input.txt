@@ -1,0 +1,6 @@
+file 'taj4.jpg'
+duration 1
+file 'taj2.jpg'
+duration 1
+file 'taj1.jpg'
+duration 1
